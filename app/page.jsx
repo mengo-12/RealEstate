@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import Nav from "@/components/Nav";
 import About from "@/components/about";
 import HouseSale from "@/components/HouseSale";
+import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -14,6 +16,8 @@ export default function Home() {
       <Nav/>
       <About/>
       <HouseSale/>
+      <Faq/>
+      <Footer/>
     </>
   );
 }
